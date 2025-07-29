@@ -1,6 +1,6 @@
 # Proyectos React
 
-## Proyecto 1
+## Proyecto 1 - Testimonios
 ### Testimonios
 Aplicación React que renderiza un listado de testimonios.
 Cada testimonio se muestra con un componente funcional <Testimonio />, al que se le pasan los datos (nombre, país, cargo, e-mail, texto e imagen) como **props**:
@@ -13,3 +13,7 @@ modificando el archivo de datos para añadir o quitar testimonios sin tocar el J
 
 ## Proyecto 2
 ### Contador
+
+## CRUD-REACT-REDUX-TREMOR
+Ejercicio practico - CRUD de usuarios con React, Redux Toolkit y Tremor: añade, lista y borra perfiles, persiste en localStorage, todo montado con Vite.
+![testimonios](CRUD_Redux_Rome_Tremor/crud-react-redux/public/table.PNG)
