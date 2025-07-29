@@ -13,6 +13,11 @@ modificando el archivo de datos para añadir o quitar testimonios sin tocar el J
 
 ## Proyecto 2
 ### Contador
+pequeño contador que permita incrementar un valor cada vez que el usuario hace clic en un botón.
+- uso de Kook para almacenar valor de contador
+- Manejador onClick para llamar funcion de actualizacion
+- Vinculo de eventos DOM y acutalizacion de UI
+![Contador](contador/contador/public/contador.PNG)
 
 ## CRUD-REACT-REDUX-TREMOR
 Ejercicio practico - CRUD de usuarios con React, Redux Toolkit y Tremor: añade, lista y borra perfiles, persiste en localStorage, todo montado con Vite.
