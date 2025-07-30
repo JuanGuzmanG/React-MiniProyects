@@ -1,6 +1,6 @@
 # Proyectos React
 
-### Testimonios
+## Testimonios
 Aplicación React que renderiza un listado de testimonios.
 Cada testimonio se muestra con un componente funcional <Testimonio />, al que se le pasan los datos (nombre, país, cargo, e-mail, texto e imagen) como **props**:
 - la capa de datos (array de objetos en un módulo independiente);
@@ -10,7 +10,7 @@ modificando el archivo de datos para añadir o quitar testimonios sin tocar el J
 
 ![testimonios](testimonios/public/testimonios.PNG)
 
-### Contador
+## Contador
 pequeño contador que permita incrementar un valor cada vez que el usuario hace clic en un botón.
 - uso de Kook para almacenar valor de contador
 - Manejador onClick para llamar funcion de actualizacion
