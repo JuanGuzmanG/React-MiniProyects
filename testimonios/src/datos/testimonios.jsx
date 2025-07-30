@@ -1,4 +1,6 @@
-// src/data/testimonios.js
+
+
+
 export const testimonios = [
   {
     imagen: 'emma.jpeg',

@@ -1,27 +1,27 @@
 import '../estilos/Testimonios.css';
+import React from 'react';
 
-export function Testimonio(props){
-  const partes = props.texto.split(/(tecnología)/);
+class Testimonio extends React.Component {
+  render() {
+    return (
+      <div className="contenedor-testimonio">
+        <img
+          className="imagen-testimonio"
+          src={require(`../imagenes/${this.props.imagen}`)}
+          alt={`Imagen de ${this.props.nombre}`} />
 
-  return (
-    <div className="contenedor-testimonio">
-      <img 
-        className="imagen-testimonio"
-        src={require(`../imagenes/${props.imagen}`)} 
-        alt={`Imagen de ${props.nombre}`} />
-
-      <div className="contenedor-texto-testimonio">
-        <p className="nombre-testimonio"><strong>{props.nombre}</strong> en {props.pais}</p>
-        <p className="cargo-testimonio">{props.cargo} - <strong>{props.email}</strong></p>
-          {partes.map((trozo, idx) => 
-            // 2) Si este trozo, en minúscula, es exactamente "tecnologia"…
+        <div className="contenedor-texto-testimonio">
+          <p className="nombre-testimonio"><strong>{this.props.nombre}</strong> en {this.props.pais}</p>
+          <p className="cargo-testimonio">{this.props.cargo} - <strong>{this.props.email}</strong></p>
+          {this.props.texto.split(/(tecnología)/).map((trozo, idx) =>
             trozo.toLowerCase() === 'tecnología'
-              // 3) …lo envolvemos en <strong>
               ? <strong key={idx}>{trozo}</strong>
-              // 4) …si no, lo devolvemos tal cual
               : trozo
           )}
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
+
+export { Testimonio };
