@@ -15,6 +15,7 @@ pequeño contador que permita incrementar un valor cada vez que el usuario hace 
 - uso de Kook para almacenar valor de contador
 - Manejador onClick para llamar funcion de actualizacion
 - Vinculo de eventos DOM y acutalizacion de UI
+
 ![Contador](contador/contador/public/contador.PNG)
 
 ## CRUD-REACT-REDUX-TREMOR
