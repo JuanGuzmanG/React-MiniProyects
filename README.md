@@ -24,3 +24,8 @@ Ejercicio practico - CRUD de usuarios con React, Redux Toolkit y Tremor: añade,
 ## Calculadora
 Calculadora básica hecha con React. Permite a los usuarios realizar operaciones aritméticas simples (suma, resta, multiplicación y división) a través de una interfaz gráfica.
 ![calculadora](calculadora/public/resultado.gif)
+
+### Administrador de tareas
+pequeño administrador de tareas, se puede crear, eliminar y completar tareas.
+
+![tasks](tasks/public/resultadoTasks.gif)
