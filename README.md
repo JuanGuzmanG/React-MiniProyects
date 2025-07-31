@@ -12,7 +12,7 @@ modificando el archivo de datos para añadir o quitar testimonios sin tocar el J
 
 ## Contador
 pequeño contador que permita incrementar un valor cada vez que el usuario hace clic en un botón.
-- uso de Kook para almacenar valor de contador
+- uso de Hook para almacenar valor de contador
 - Manejador onClick para llamar funcion de actualizacion
 - Vinculo de eventos DOM y acutalizacion de UI
 
